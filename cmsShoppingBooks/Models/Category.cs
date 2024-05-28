@@ -11,6 +11,7 @@ namespace cmsShoppingBooks.Models
         public string Slug { get; set; } //descripcion del nombre de la categoria
         public int Sorting { get; set; }
         public date Fecha { get; set; }
+        public int Cuenta { get; set; }
 
     }
 }
